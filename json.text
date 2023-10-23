@@ -1,0 +1,49 @@
+GET ALL/POST
+http://localhost:3001/api/users
+    add new user: 
+    {
+        "username": "randomMan",
+        "email": "ratstew@email.com"
+    }
+GET ONE
+with id of that user
+PUT ONE 
+with id of that user
+DELETE ONE
+with id of that user
+
+
+
+
+GET ALL/POST
+http://localhost:3001/api/thoughts
+    add new thought:
+    {
+        "thoughtText": "I don't like cheese actually",
+        "username": "randomMan"
+        
+    }
+GET ONE,
+PUT ONE,
+DELETE ONE,
+using that new posts id.
+
+
+
+
+POST to add friend
+http://localhost:3001/api/users/65344c48929840e4df630b75/friends/65343f7f86836332f760d83c
+
+DELETE friend
+
+
+ 
+
+POST reaction
+http://localhost:3001/api/thoughts/65344d61929840e4df630b7a/requests
+    add new reaction:
+    {
+        "reactionBody": "huh",
+        "username": "randomMan"
+    }
+DELETE reaction with that id after showing it on the thought. 
